@@ -56,5 +56,5 @@ if ingredients_list:
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered, ' + name_on_order + '!', icon="✅")
 
-smoothiefroot_response2 = requests.get("https://my.smoothiefroot.com/api/fruit/all")
-sf_df2 = st.dataframe(data=smoothiefroot_response2.json(), use_container_width=True)   
+# smoothiefroot_response2 = requests.get("https://my.smoothiefroot.com/api/fruit/all")
+# sf_df2 = st.dataframe(data=smoothiefroot_response2.json(), use_container_width=True)   
